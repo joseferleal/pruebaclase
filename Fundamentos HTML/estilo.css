@@ -1,0 +1,63 @@
+h1{
+    color:orange;
+    font-family: cursive;
+}
+
+
+#título2{
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.negrilla{
+    font-weight: bold;
+}
+
+
+#cabecera{
+    background-color: red;
+    width:100vw;  /*Ancho de la pantalla*/
+    height:35vh; /*Alto de la pantalla*/
+    overflow: hidden; /*Que detecte cuando hay un desbordamiento y lo oculte con hidden*/
+}
+#cuerpo{
+
+}
+
+body{
+    margin:0px;
+}
+
+#contexto{
+    background-color: yellow;
+    width:50%;
+    height:100%;
+    float:left;
+    text-align: center;
+    padding-top:60px;
+
+}
+
+
+#contImagen{
+    background-color: green;
+    width:50%;
+    height: 100%;
+    padding-left: 55%;
+    float: right;
+
+}
+
+
+#contImagen img{
+    margin-left: 50px;
+  
+}
+
+#tituloCabecera{
+    font-size: 2.2rem;
+}
+
+#subtitulo{
+    font-size: 2.2rem;  /*el "em" viene de la anchura por defecto de la letra "m" en tipografía monoespacio.*/
+}
