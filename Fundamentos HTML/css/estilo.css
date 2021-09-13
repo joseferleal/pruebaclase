@@ -61,3 +61,10 @@ body{
 #subtitulo{
     font-size: 2.2rem;  /*el "em" viene de la anchura por defecto de la letra "m" en tipografía monoespacio.*/
 }
+table, tr, td, th{
+    border: 1px solid black;
+}
+
+table{
+    width: 50%;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Cargar la hoja de estilo-->
+    <link rel="stylesheet" href="../css/estiloregistro.css">
+</head>
+<body>
+
+    <header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuyk88E_N4QR_lyb7yqMlDZex1yax6w9lEBw&usqp=CAU" alt="">
+    </header>
+    <main>
+        <!--Contenedor padre-->
+        <div id="ContPadre">
+<!--Contenedor hijo 1-->
+<div id="formulario">
+    <form>
+        <!--Nombre-->
+        <label for="nombre">Nombre:</label>
+        <br>
+        <input required size="50" type="text" id="nombre" name="nombre">
+        <!--Apellido-->
+        <br>
+        <label for="apellido">Apellido:</label>
+        <br>
+        <input required size="50" type="text" id="apellido" name="apellido">
+<!--Correo-->
+<br>
+<label for="email">Correo:</label>
+<br>
+<input required size="50" type="email" id="email" name="email">
+<br>
+<!--Teléfono-->
+<br>
+<label for="telefóno">Teléfono:</label>
+<br>
+<input required size="50" type="tel" id="teléfono" name="universidad">
+<br>
+<!--Universidad-->
+<br>
+<label for="universidad">Universidad:</label>
+<br>
+<input required size="50" type="text" id="universidad" name="universidad">
+<br>
+
+<!--Ciudades-->
+<label for="ciudades">Ciudad</label>
+<select name="ciudades" id="ciudades">
+    <!--<optgroup></optgroup> Permite agrupar las opciones-->
+    <option>Bogotá</option>
+    <option>Cali</option>
+    <option>Medellín</option> 
+</select>
+<!--Extranjero-->
+<br>
+<input type="checkbox" id="Extranjero" name="Extranjero">
+<label for="Extranjero">Extranjero</label>
+<br>
+<input type="submit" value="Registro">
+<br>
+<div id="btnregistro">Registrar</div>
+    </form>
+</div>
+
+<!--Contenedor para la tabla-->
+<div id="ContTabla">
+    <!--Tabla-->
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Email</th>
+            <th>Teléfono</th>
+            <th>Universidad</th>
+            <th>ciudad</th>
+            <th>extranjero</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+
+        </div>
+    </main>
+</body>
+</html>
