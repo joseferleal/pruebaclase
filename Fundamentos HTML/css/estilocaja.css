@@ -1,0 +1,42 @@
+/*#s1, #s2 div{
+    border: 2px solid green;
+    width: 300px;
+    display: inline-block;
+}*/
+
+#s1 div{
+    border: 2px solid green;
+    width: 300px;
+    display: inline-block;
+}
+
+#s1 p{
+    margin:0px;
+}
+#s2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#s3, #p_1,#p_2,#p_3{
+font-size: 1.2rem;
+}
+
+#p_4{
+    font-family: cursive;
+    color: orange;
+}
+
+#s4 div{
+    background-color: green;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+#s4 div:hover{
+    color: orange;
+    background-color: aliceblue;
+}
